@@ -1,5 +1,3 @@
-// Proveedor.js
-
 export class Proveedor {
     constructor(nombre, articulo, precio) {
         this.nombre = nombre;

@@ -5,7 +5,6 @@ import { Articulo } from './articulo.js';
 import { calcularImpuesto } from './impuesto.js';
 import { combinarProveedores } from './combine.js';
 
-// Validar que el campo solo contenga letras
 const validarSoloLetras = (texto) => {
     const regex = /^[a-zA-Z\s]+$/;
     return regex.test(texto);
